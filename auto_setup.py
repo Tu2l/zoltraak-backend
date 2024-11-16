@@ -202,7 +202,7 @@ def process_stagging_files(stagging_dir, published_dir):
 
         for category in published_page_json:
             if str.lower(category["name"]) == str.lower(stagged_category):
-                category_path = category["path"]
+                category_path = os.path.join(published_dir, category["path"])
                 break
 
         # category not exists
