@@ -1,0 +1,12 @@
+{
+  "root": "2",
+  "current_page": 2,
+  "next_page": null,
+  "posts": [
+    {
+      "path": "post2/post",
+      "topic": "Introduction to CSS",
+      "thumbnail": "post2/article2_thumbnail.jpg"
+    }
+  ]
+}
