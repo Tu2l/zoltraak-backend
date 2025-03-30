@@ -1,0 +1,12 @@
+{
+  "root": "1",
+  "current_page": 1,
+  "next_page": null,
+  "posts": [
+    {
+      "path": "code.html",
+      "topic": "Code Snippet using ASCII doc syntax",
+      "thumbnail": "thumbnail path"
+    }
+  ]
+}
