@@ -4,9 +4,9 @@
   "next_page": null,
   "posts": [
     {
-      "path": "code.html",
-      "topic": "Code Snippet using ASCII doc syntax",
-      "thumbnail": "thumbnail path"
+      "path": "AsciiDoc-A_Powerful_Tool_for_Documentation.html",
+      "topic": "AsciiDoc is a lightweight markup language for creating clear and concise documentation in plain text. It allows for easy conversion to various formats like HTML and PDF, making it versatile for different platforms.",
+      "thumbnail": "document.jpeg"
     }
   ]
 }
