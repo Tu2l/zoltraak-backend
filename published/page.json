@@ -1,17 +1,7 @@
 [
   {
-    "name": "asciidoc",
+    "name": "AsciiDoc",
     "path": "asciidoc",
-    "start_page": 1
-  },
-  {
-    "name": "projects",
-    "path": "projects",
-    "start_page": 1
-  },
-  {
-    "name": "posts",
-    "path": "posts",
     "start_page": 1
   }
 ]
