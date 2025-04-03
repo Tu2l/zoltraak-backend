@@ -5,8 +5,9 @@
   "posts": [
     {
       "path": "AsciiDoc-A_Powerful_Tool_for_Documentation.html",
-      "topic": "AsciiDoc is a lightweight markup language for creating clear and concise documentation in plain text. It allows for easy conversion to various formats like HTML and PDF, making it versatile for different platforms.",
-      "thumbnail": "document.jpeg"
+      "description": "AsciiDoc is a lightweight markup language for creating clear and concise documentation in plain text. It allows for easy conversion to various formats like HTML and PDF, making it versatile for different platforms.",
+      "thumbnail": "document.jpeg",
+      "title": "AsciiDoc: A Powerful Tool for Documentation"
     }
   ]
 }
