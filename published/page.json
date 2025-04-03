@@ -3,5 +3,10 @@
     "name": "AsciiDoc",
     "path": "asciidoc",
     "start_page": 1
+  },
+  {
+    "name": "gaming",
+    "path": "gaming",
+    "start_page": 1
   }
 ]
