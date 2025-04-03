@@ -75,8 +75,9 @@ def initialize_backend(config):
         json.dump([{
             "filename": "filename path",
             "thumbnail": "thumbnail path",
-            "topic": "about the file content",
-            "category": "posts"
+            "description": "about the file content",
+            "category": "posts",
+            "title": "name of the post"
         }], f, indent=2)
     logging.info(f"Created template stage.json: {template_stage_json}")
 
@@ -277,8 +278,9 @@ def process_staging_files(staging_dir, published_dir):
 
         page_json["posts"].append({
             "path": stage["filename"],
-            "topic": stage["topic"],
-            "thumbnail": stage.get("thumbnail", "")
+            "description": stage["description"],
+            "thumbnail": stage.get("thumbnail", ""),
+            "title": stage["title"]
         })
 
         with open(page_json_path, "w") as f:
