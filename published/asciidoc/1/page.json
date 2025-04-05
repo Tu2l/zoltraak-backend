@@ -8,6 +8,12 @@
       "description": "AsciiDoc is a lightweight markup language for creating clear and concise documentation in plain text. It allows for easy conversion to various formats like HTML and PDF, making it versatile for different platforms.",
       "thumbnail": "document.jpeg",
       "title": "AsciiDoc: A Powerful Tool for Documentation"
+    },
+     {
+      "path": "asciidoc_syntax_usages.html",
+      "description": "Overall, the article serves as a comprehensive reference for anyone wanting to learn or improve their skills in using AsciiDoc syntax. By providing clear explanations and practical examples for each syntax element, it empowers readers to create well-structured, readable, and maintainable documents for a wide range of purposes, from technical documentation to books and articles.",
+      "thumbnail": "document.jpeg",
+      "title": "AsciiDoc Syntax and Uses"
     }
   ]
 }
