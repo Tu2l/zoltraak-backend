@@ -1,0 +1,13 @@
+{
+  "root": "1",
+  "current_page": 1,
+  "next_page": null,
+  "posts": [
+    {
+      "path": "protobuf.html",
+      "description": "This article introduces Protocol Buffers (Protobuf), a powerful tool for making data exchange between different programs and languages faster and smaller than with formats like JSON or XML.",
+      "thumbnail": "protobuf.jpeg",
+      "title": "Protocol Buffers (Protobuf): A Powerful Data Serialization Tool with Multi-Language Examples"
+    }
+  ]
+}
