@@ -39,8 +39,8 @@ This file contains a JSON array of category objects. Each object has the followi
 ```json
 [
   {
-    "name": "Category Name",
-    "path": "category_name",
+    "name": "posts",
+    "path": "posts",
     "start_page": 1
   }
 ]
@@ -56,7 +56,7 @@ This file contains a JSON object with server configuration settings:
 
 ```json
 {
-  "root": "https://example.com",
+  "root": "https://github.com/tu2l/tu2l.github.io",
   "items_per_page": 10,
   "published_pages": "published/page.json"
 }
@@ -72,7 +72,7 @@ This file contains a JSON object with category metadata:
 
 ```json
 {
-  "root": "category_name",
+  "root": "posts",
   "start_page": 1,
   "end_page": 1,
   "total_pages": 1
@@ -90,14 +90,15 @@ This file contains a JSON object with page metadata:
 
 ```json
 {
-  "root": "page_number",
+  "root": "1",
   "current_page": 1,
-  "next_page": 2,
+  "next_page": null,
   "posts": [
     {
-      "path": "content_file.html",
-      "topic": "Content Title",
-      "thumbnail": "thumbnail.jpg"
+      "path": "sample1.html",
+      "description": "No Description",
+      "thumbnail": "",
+      "title": "Sample 1 Post Name"
     }
   ]
 }
@@ -108,29 +109,30 @@ This file contains a JSON object with page metadata:
 *   `next_page`: The page number of the next page, or `null` if it is the last page.
 *   `posts`: An array of post objects, each containing:
     *   `path`: The path to the content file (HTML).
-    *   `topic`: The title or topic of the content.
+    *   `description`: A brief description of the content.
     *   `thumbnail`: The path to the thumbnail image for the content.
+    *   `title`: The title of the content.
 
-## `staging` Directory
+### `staging/stage.json`
 
-The `staging` directory contains files that are not yet published.  The structure is less rigid than the `published` directory.  A key file in this directory is:
-
-*   `stage.json`: This file describes the files in the staging directory and how they should be processed.  It's an array of objects with the following structure:
+This file describes the files in the staging directory and how they should be processed. It's an array of objects with the following structure:
 
 ```json
 [
   {
-    "filename": "filename.html",
-    "thumbnail": "thumbnail.jpg",
-    "topic": "About the file content",
-    "category": "posts"
+    "filename": "filename path",
+    "thumbnail": "thumbnail path",
+    "description": "about the file content",
+    "category": "posts",
+    "title": "name of the post"
   }
 ]
 ```
 
 *   `filename`: The name of the HTML file.
 *   `thumbnail`: The name of the thumbnail image (optional).
-*   `topic`: A brief description of the content.
-*   `category`: The category to which the content belongs.  This should match a category `name` in the `published/page.json` file.
+*   `description`: A brief description of the content.
+*   `category`: The category to which the content belongs. This should match a category `name` in the `published/page.json` file.
+*   `title`: The title of the content.
 
 This documentation provides a comprehensive overview of the directory structure and JSON files used in the Zoltraak backend. Understanding this structure is crucial for managing and updating the content of the website.
