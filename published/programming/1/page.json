@@ -8,6 +8,12 @@
       "description": "This article introduces Protocol Buffers (Protobuf), a powerful tool for making data exchange between different programs and languages faster and smaller than with formats like JSON or XML.",
       "thumbnail": "protobuf.jpeg",
       "title": "Protocol Buffers (Protobuf): A Powerful Data Serialization Tool with Multi-Language Examples"
+    },
+    {
+      "path": "kotlin_for_java_developer.html",
+      "description": "This topic is about transitioning from Java to Kotlin, a modern, concise, and safer language that runs on the JVM. Kotlin reduces boilerplate, enhances null safety, and offers features like data classes, extension functions, and coroutines. Since it\u2019s fully interoperable with Java, developers can gradually adopt it in existing projects with ease.",
+      "thumbnail": "kotlin_java.png",
+      "title": "Kotlin for Java Developers"
     }
   ]
 }
